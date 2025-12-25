@@ -1,0 +1,61 @@
+PRIVACY POLICY
+
+Last updated: 2025
+
+Your privacy is important to us. This Privacy Policy explains how our AI Image Generator application ("the App") collects, uses, and protects your information.
+
+1. Information We Collect
+
+We may collect the following types of information:
+- Images uploaded by users for image generation purposes.
+- Text prompts entered by users.
+- Basic device information such as device model, operating system version, and app version.
+- Anonymous usage data to improve app performance and features.
+
+We do NOT collect:
+- Personal identification information such as name, address, or phone number.
+- Payment card details (handled securely by third-party providers).
+
+2. How We Use Your Information
+
+We use collected information to:
+- Generate AI images based on your uploaded photos and prompts.
+- Improve the quality and performance of our AI models.
+- Fix bugs, analyze usage trends, and enhance user experience.
+- Ensure app security and prevent misuse.
+
+3. Image and Data Processing
+
+Uploaded images and prompts are processed only for image generation.
+Images may be temporarily stored during processing and are deleted automatically after completion unless required for history or user-requested features.
+
+We do not use your images for training AI models without your explicit consent.
+
+4. Data Sharing
+
+We do not sell, trade, or rent your personal data to third parties.
+We may share limited data with trusted third-party services strictly for:
+- Cloud processing
+- Analytics
+- App stability and crash reporting
+
+All third-party services comply with industry-standard privacy and security requirements.
+
+5. Data Security
+
+We take reasonable technical and organizational measures to protect your data against unauthorized access, loss, or misuse.
+
+6. Children’s Privacy
+
+The App is not intended for users under the age of 13.
+We do not knowingly collect data from children.
+
+7. Changes to This Policy
+
+We may update this Privacy Policy from time to time.
+Any changes will be posted within the App.
+
+8. Contact Us
+
+If you have any questions about this Privacy Policy, please contact us at:
+support@yourappdomain.com

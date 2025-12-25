@@ -1,0 +1,74 @@
+{
+  "onboarding": {
+    "page1": {
+      "title": "Create from",
+      "highlight": "Templates",
+      "desc": "Choose from thousands of unique designs\nand customize in seconds."
+    },
+    "page2": {
+      "title": "Diverse templates",
+      "desc": "Explore thousands of unique styles from Anime, Cyberpunk to Oil Painting."
+    },
+    "page3": {
+      "title": "Custom image creation",
+      "desc": "Combine your images with creative prompts to generate unique artworks."
+    }
+  },
+  "choose_language": "Choose Language",
+  "select_language_desc": "Select your preferred language to continue",
+  "continue": "Continue",
+  "start": "Start",
+  "app_name": "ArtGen AI",
+  "search_hint": "Search styles, prompts, or templates...",
+  "see_all": "See all",
+  "nav_home": "Home",
+  "nav_history": "History",
+  "nav_favorite": "Favorite",
+  "nav_profile": "Profile",
+  "history_title": "Used presets",
+  "history_empty": "No images yet",
+  "section_history": "History",
+  "image_generating": "Generating image...",
+  "image_please_wait": "Please wait a moment",
+  "image_download": "Download image",
+  "image_save_success": "✅ Image saved to Gallery",
+  "image_save_failed": "❌ Failed to save image",
+  "preset_pick_image": "Pick image",
+  "favorite_title": "Favorites",
+  "favorite_empty": "No favorite presets yet ❤️",
+  "section_favorite": "Favorite",
+  "prompt_title": "AI Image",
+  "prompt_subtitle": "Describe your image",
+  "prompt_hint": "Enter image description...",
+  "prompt_generate": "Generate image",
+  "prompt_suggestion_1": "Add a hat to the head, put a ring on the finger",
+  "prompt_suggestion_2": "Merge 3 images together",
+  "prompt_suggestion_3": "Add a necklace to the neck, a watch to the wrist",
+  "see_all_search_hint": "Search in this section...",
+  "section_christmas": "Christmas",
+  "section_snow_trend": "Snow Trend",
+  "section_portrait": "Portrait",
+  "skip": "Skip","profile_title": "App Information",
+  "profile_app_name": "AI Art Generator",
+  "profile_app_slogan": "Create Magic with AI",
+
+  "profile_section_legal": "LEGAL & COPYRIGHT",
+  "profile_section_settings": "SETTINGS",
+  "profile_section_community": "COMMUNITY",
+
+  "profile_privacy_policy": "Privacy Policy",
+  "profile_terms_of_service": "Terms of Service",
+  "profile_language": "Language Settings",
+  "profile_rate_app": "Rate the app",
+  "profile_send_feedback": "Send feedback",
+  "profile_settings": "Language settings",
+
+  "rate_title": "Do you like this app?",
+  "rate_desc": "Take a moment to rate\nyour experience with us!",
+  "rate_submit": "Submit rating",
+  "rate_later": "Later",
+
+  "badge_original": "ORIGINAL",
+  "badge_ai_art": "AI ART"
+
+}

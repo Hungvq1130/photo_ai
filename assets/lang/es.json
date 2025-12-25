@@ -1,0 +1,74 @@
+{
+  "onboarding": {
+    "page1": {
+      "title": "Crear desde",
+      "highlight": "Plantillas",
+      "desc": "Elige entre miles de diseños únicos\ny personalízalos en segundos."
+    },
+    "page2": {
+      "title": "Gran variedad de plantillas",
+      "desc": "Explora miles de estilos únicos desde Anime y Cyberpunk hasta pintura al óleo."
+    },
+    "page3": {
+      "title": "Creación de imágenes personalizadas",
+      "desc": "Combina tus imágenes con descripciones creativas para generar obras de arte únicas."
+    }
+  },
+  "choose_language": "Elegir idioma",
+  "select_language_desc": "Selecciona tu idioma preferido para continuar",
+  "continue": "Continuar",
+  "app_name": "ArtGen AI",
+  "search_hint": "Buscar estilos, prompts o plantillas...",
+  "see_all": "Ver todo",
+  "nav_home": "Inicio",
+  "nav_history": "Historial",
+  "nav_favorite": "Favoritos",
+  "nav_profile": "Perfil",
+  "history_title": "Presets usados",
+  "history_empty": "Aún no hay imágenes",
+  "section_history": "Historial",
+  "image_generating": "Generando imagen...",
+  "image_please_wait": "Por favor espera un momento",
+  "image_download": "Descargar imagen",
+  "image_save_success": "✅ Imagen guardada en la galería",
+  "image_save_failed": "❌ Error al guardar la imagen",
+  "preset_pick_image": "Elegir imagen",
+  "favorite_title": "Favoritos",
+  "favorite_empty": "Aún no hay presets favoritos ❤️",
+  "section_favorite": "Favoritos",
+  "prompt_title": "Imagen AI",
+  "prompt_subtitle": "Describe tu imagen",
+  "prompt_hint": "Ingresa la descripción de la imagen...",
+  "prompt_generate": "Generar imagen",
+  "prompt_suggestion_1": "Agregar un sombrero a la cabeza y un anillo al dedo",
+  "prompt_suggestion_2": "Combinar 3 imágenes",
+  "prompt_suggestion_3": "Agregar un collar al cuello y un reloj a la muñeca",
+  "see_all_search_hint": "Buscar en esta sección...",
+  "section_christmas": "Navidad",
+  "section_snow_trend": "Tendencia de nieve",
+  "section_portrait": "Retrato",
+  "start": "Comenzar",
+  "skip": "Saltar",
+  "profile_title": "Información de la aplicación",
+  "profile_app_name": "AI Art Generator",
+  "profile_app_slogan": "Crea magia con IA",
+
+  "profile_section_legal": "LEGAL Y DERECHOS DE AUTOR",
+  "profile_section_settings": "CONFIGURACIÓN",
+  "profile_section_community": "COMUNIDAD",
+
+  "profile_privacy_policy": "Política de privacidad",
+  "profile_terms_of_service": "Términos del servicio",
+  "profile_language": "Configuración de idioma",
+  "profile_rate_app": "Calificar la aplicación",
+  "profile_send_feedback": "Enviar comentarios",
+  "profile_settings": "Configuración de idioma",
+
+  "rate_title": "¿Te gusta la aplicación?",
+  "rate_desc": "Tómate un momento para calificar\ntu experiencia con nosotros",
+  "rate_submit": "Enviar calificación",
+  "rate_later": "Más tarde",
+
+  "badge_original": "ORIGINAL",
+  "badge_ai_art": "ARTE IA"
+}

@@ -1,0 +1,60 @@
+TERMS OF SERVICE
+
+Last updated: 2025
+
+By using the AI Image Generator application ("the App"), you agree to these Terms of Service. If you do not agree, please do not use the App.
+
+1. Description of Service
+
+The App provides AI-powered image generation based on user-uploaded images and text prompts.
+Generated results may vary and are not guaranteed to meet specific expectations.
+
+2. User Responsibilities
+
+You agree that you will NOT:
+- Upload illegal, harmful, or abusive content.
+- Upload images you do not own or have permission to use.
+- Use the App to create content that violates laws or intellectual property rights.
+- Attempt to reverse engineer or misuse the AI system.
+
+You are solely responsible for the content you upload and generate.
+
+3. Generated Content
+
+Generated images are provided "as is".
+The App does not guarantee accuracy, realism, or suitability for any particular purpose.
+
+You are responsible for how you use generated images.
+
+4. Intellectual Property
+
+The App, its design, AI models, and underlying technology are the intellectual property of the developer.
+You retain rights to your original uploaded images.
+
+Unless otherwise stated, generated images may be used for personal and commercial purposes, subject to applicable laws.
+
+5. Subscription and Credits
+
+Some features may require a subscription or credits.
+Prices, features, and availability may change at any time.
+
+All purchases are handled by platform providers (Google Play / App Store) and are subject to their terms.
+
+6. Service Availability
+
+We do not guarantee uninterrupted access to the App.
+The App may be modified, suspended, or discontinued at any time without prior notice.
+
+7. Limitation of Liability
+
+The App is provided on an "as is" and "as available" basis.
+We are not liable for any damages resulting from the use or inability to use the App.
+
+8. Termination
+
+We reserve the right to suspend or terminate access to the App if these Terms are violated.
+
+9. Changes to Terms
+
+These Terms may be updated at any time.
+Continued use of the App constitutes acceptance of updated Terms.

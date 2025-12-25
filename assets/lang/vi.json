@@ -1,0 +1,75 @@
+{
+  "onboarding": {
+    "page1": {
+      "title": "Sáng tạo từ",
+      "highlight": "Mẫu có sẵn",
+      "desc": "Chọn từ hàng ngàn mẫu thiết kế độc đáo\nvà tuỳ chỉnh chỉ trong vài giây."
+    },
+    "page2": {
+      "title": "Kho mẫu đa dạng",
+      "desc": "Khám phá hàng ngàn phong cách độc đáo từ Anime, Cyberpunk đến sơn dầu nghệ thuật."
+    },
+    "page3": {
+      "title": "Tạo ảnh tuỳ chỉnh",
+      "desc": "Kết hợp ảnh của bạn với các mô tả độc đáo để tạo ra tác phẩm nghệ thuật có 1-0-2"
+    }
+  },
+  "choose_language": "Chọn ngôn ngữ",
+  "select_language_desc": "Chọn ngôn ngữ bạn muốn sử dụng để tiếp tục",
+  "continue": "Tiếp tục",
+  "app_name": "ArtGen AI",
+  "search_hint": "Tìm kiếm phong cách, prompt hoặc mẫu...",
+  "see_all": "Xem tất cả",
+  "nav_home": "Trang chủ",
+  "nav_history": "Lịch sử",
+  "nav_favorite": "Yêu thích",
+  "nav_profile": "Hồ sơ",
+  "history_title": "Mẫu đã sử dụng",
+  "history_empty": "Chưa có ảnh nào",
+  "section_history": "Lịch sử",
+  "image_generating": "Đang tạo ảnh...",
+  "image_please_wait": "Vui lòng chờ trong giây lát",
+  "image_download": "Tải ảnh về máy",
+  "image_save_success": "✅ Đã lưu ảnh vào thư viện",
+  "image_save_failed": "❌ Lưu ảnh thất bại",
+  "preset_pick_image": "Chọn ảnh",
+  "favorite_title": "Yêu thích",
+  "favorite_empty": "Chưa có preset yêu thích ❤️",
+  "section_favorite": "Yêu thích",
+  "prompt_title": "Ảnh AI",
+  "prompt_subtitle": "Mô tả hình ảnh của bạn",
+  "prompt_hint": "Nhập mô tả cho ảnh...",
+  "prompt_generate": "Tạo ảnh",
+  "prompt_suggestion_1": "Thêm mũ lên đầu, đeo nhẫn vào ngón tay",
+  "prompt_suggestion_2": "Ghép 3 ảnh lại với nhau",
+  "prompt_suggestion_3": "Thêm dây chuyền vào cổ, đồng hồ vào cổ tay",
+  "see_all_search_hint": "Tìm kiếm trong mục này...",
+  "section_christmas": "Giáng sinh",
+  "section_snow_trend": "Xu hướng tuyết",
+  "section_portrait": "Chân dung",
+  "start": "Bắt đầu",
+  "skip": "Bỏ qua","profile_title": "Thông tin ứng dụng",
+  "profile_app_name": "AI Art Generator",
+  "profile_app_slogan": "Sáng tạo kỳ diệu với AI",
+
+  "profile_section_legal": "PHÁP LÝ & BẢN QUYỀN",
+  "profile_section_settings": "CÀI ĐẶT",
+  "profile_section_community": "CỘNG ĐỒNG",
+
+  "profile_privacy_policy": "Chính sách bảo mật",
+  "profile_terms_of_service": "Điều khoản dịch vụ",
+  "profile_language": "Cài đặt ngôn ngữ",
+  "profile_rate_app": "Đánh giá ứng dụng",
+  "profile_send_feedback": "Gửi phản hồi",
+  "profile_settings": "Cài đặt ngôn ngữ",
+
+  "rate_title": "Bạn yêu thích ứng dụng?",
+  "rate_desc": "Hãy dành chút thời gian để đánh giá\ntrải nghiệm của bạn với chúng tôi nhé!",
+  "rate_submit": "Gửi đánh giá",
+  "rate_later": "Để sau",
+
+  "badge_original": "ẢNH GỐC",
+  "badge_ai_art": "AI ART"
+}
+
+

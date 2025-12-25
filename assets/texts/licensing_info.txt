@@ -1,0 +1,48 @@
+LICENSING INFORMATION
+
+Last updated: 2025
+
+This application uses AI technology, third-party libraries, and open-source software components.
+
+1. AI Technology
+
+The App uses AI-based image generation models to transform user inputs into visual outputs.
+All AI processing is performed in compliance with applicable laws and platform policies.
+
+2. User Content License
+
+By uploading images or prompts, you grant the App a limited, non-exclusive, and temporary license to process your content solely for the purpose of providing the service.
+
+This license ends automatically after processing is completed, unless otherwise required for features such as history or favorites.
+
+3. Generated Images License
+
+Unless otherwise specified:
+- You are allowed to use generated images for personal and commercial purposes.
+- You are responsible for ensuring generated content complies with applicable laws.
+
+We do not guarantee exclusivity of generated images.
+
+4. Third-Party Services
+
+The App may include services provided by third parties, including:
+- Cloud infrastructure providers
+- Analytics and crash reporting tools
+- Payment processors
+
+Each third-party service operates under its own license and terms.
+
+5. Open Source Software
+
+The App may include open-source libraries licensed under MIT, Apache 2.0, or similar licenses.
+Relevant license texts are available upon request.
+
+6. Disclaimer
+
+The App does not grant legal ownership or copyright guarantees for generated content.
+Use of generated images is at your own risk.
+
+7. Contact
+
+For licensing questions, please contact:
+support@yourappdomain.com

@@ -1,0 +1,74 @@
+{
+  "onboarding": {
+    "page1": {
+      "title": "Erstellen aus",
+      "highlight": "Vorlagen",
+      "desc": "Wähle aus Tausenden einzigartiger Designs\nund passe sie in Sekunden an."
+    },
+    "page2": {
+      "title": "Vielfältige Vorlagen",
+      "desc": "Entdecke Tausende einzigartiger Stile von Anime, Cyberpunk bis hin zur Ölmalerei."
+    },
+    "page3": {
+      "title": "Individuelle Bilderstellung",
+      "desc": "Kombiniere deine Bilder mit kreativen Beschreibungen, um einzigartige Kunstwerke zu erstellen."
+    }
+  },
+  "choose_language": "Sprache wählen",
+  "select_language_desc": "Wählen Sie Ihre bevorzugte Sprache, um fortzufahren",
+  "continue": "Weiter",
+  "app_name": "ArtGen AI",
+  "search_hint": "Stile, Prompts oder Vorlagen suchen...",
+  "see_all": "Alle anzeigen",
+  "nav_home": "Startseite",
+  "nav_history": "Verlauf",
+  "nav_favorite": "Favoriten",
+  "nav_profile": "Profil",
+  "history_title": "Verwendete Presets",
+  "history_empty": "Noch keine Bilder",
+  "section_history": "Verlauf",
+  "image_generating": "Bild wird generiert...",
+  "image_please_wait": "Bitte einen Moment warten",
+  "image_download": "Bild herunterladen",
+  "image_save_success": "✅ Bild in der Galerie gespeichert",
+  "image_save_failed": "❌ Bild konnte nicht gespeichert werden",
+  "preset_pick_image": "Bild auswählen",
+  "favorite_title": "Favoriten",
+  "favorite_empty": "Noch keine favorisierten Presets ❤️",
+  "section_favorite": "Favoriten",
+  "prompt_title": "KI-Bild",
+  "prompt_subtitle": "Beschreiben Sie Ihr Bild",
+  "prompt_hint": "Bildbeschreibung eingeben...",
+  "prompt_generate": "Bild generieren",
+  "prompt_suggestion_1": "Einen Hut auf den Kopf setzen und einen Ring an den Finger legen",
+  "prompt_suggestion_2": "3 Bilder zusammenfügen",
+  "prompt_suggestion_3": "Eine Halskette um den Hals und eine Uhr ans Handgelenk legen",
+  "see_all_search_hint": "In diesem Bereich suchen...",
+  "section_christmas": "Weihnachten",
+  "section_snow_trend": "Schneetrend",
+  "section_portrait": "Porträt",
+  "start": "Beginnen",
+  "skip": "Überspringen","profile_title": "App-Informationen",
+  "profile_app_name": "AI Art Generator",
+  "profile_app_slogan": "Magie mit KI erschaffen",
+
+  "profile_section_legal": "RECHTLICHES & URHEBERRECHT",
+  "profile_section_settings": "EINSTELLUNGEN",
+  "profile_section_community": "COMMUNITY",
+
+  "profile_privacy_policy": "Datenschutzrichtlinie",
+  "profile_terms_of_service": "Nutzungsbedingungen",
+  "profile_language": "Spracheinstellungen",
+  "profile_rate_app": "App bewerten",
+  "profile_send_feedback": "Feedback senden",
+  "profile_settings": "Spracheinstellungen",
+
+  "rate_title": "Gefällt dir diese App?",
+  "rate_desc": "Nimm dir einen Moment Zeit,\num deine Erfahrung zu bewerten!",
+  "rate_submit": "Bewertung senden",
+  "rate_later": "Später",
+
+  "badge_original": "ORIGINAL",
+  "badge_ai_art": "KI-KUNST"
+
+}

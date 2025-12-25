@@ -1,0 +1,74 @@
+{
+  "onboarding": {
+    "page1": {
+      "title": "作成する",
+      "highlight": "テンプレートから",
+      "desc": "数千種類のユニークなデザインから選び\n数秒でカスタマイズできます。"
+    },
+    "page2": {
+      "title": "多彩なテンプレート",
+      "desc": "アニメ、サイバーパンク、油絵まで\n多様なスタイルを探索できます。"
+    },
+    "page3": {
+      "title": "カスタム画像生成",
+      "desc": "画像と創造的なプロンプトを組み合わせて\n唯一無二のアートを作成できます。"
+    }
+  },
+  "choose_language": "言語を選択",
+  "select_language_desc": "続行するには使用する言語を選択してください",
+  "continue": "続行",
+  "app_name": "ArtGen AI",
+  "search_hint": "スタイル、プロンプト、テンプレートを検索...",
+  "see_all": "すべて表示",
+  "nav_home": "ホーム",
+  "nav_history": "履歴",
+  "nav_favorite": "お気に入り",
+  "nav_profile": "プロフィール",
+  "history_title": "使用したプリセット",
+  "history_empty": "まだ画像がありません",
+  "section_history": "履歴",
+  "image_generating": "画像を生成中...",
+  "image_please_wait": "しばらくお待ちください",
+  "image_download": "画像を保存",
+  "image_save_success": "✅ 画像をギャラリーに保存しました",
+  "image_save_failed": "❌ 画像の保存に失敗しました",
+  "preset_pick_image": "画像を選択",
+  "favorite_title": "お気に入り",
+  "favorite_empty": "お気に入りのプリセットはまだありません ❤️",
+  "section_favorite": "お気に入り",
+  "prompt_title": "AI画像",
+  "prompt_subtitle": "画像の説明を入力してください",
+  "prompt_hint": "画像の説明を入力...",
+  "prompt_generate": "画像を生成",
+  "prompt_suggestion_1": "頭に帽子を追加し、指に指輪を付ける",
+  "prompt_suggestion_2": "3枚の画像を結合する",
+  "prompt_suggestion_3": "首にネックレス、手首に時計を追加する",
+  "see_all_search_hint": "このセクション内を検索...",
+  "section_christmas": "クリスマス",
+  "section_snow_trend": "スノートレンド",
+  "section_portrait": "ポートレート",
+  "start": "始める",
+  "skip": "スキップ",
+  "profile_title": "アプリ情報",
+  "profile_app_name": "AI Art Generator",
+  "profile_app_slogan": "AIで魔法を創造する",
+
+  "profile_section_legal": "法的情報",
+  "profile_section_settings": "設定",
+  "profile_section_community": "コミュニティ",
+
+  "profile_privacy_policy": "プライバシーポリシー",
+  "profile_terms_of_service": "利用規約",
+  "profile_language": "言語設定",
+  "profile_rate_app": "アプリを評価する",
+  "profile_send_feedback": "フィードバックを送信",
+  "profile_settings": "言語設定",
+
+  "rate_title": "このアプリは気に入りましたか？",
+  "rate_desc": "少し時間を取って\nご利用体験を評価してください",
+  "rate_submit": "評価を送信",
+  "rate_later": "後で",
+
+  "badge_original": "元画像",
+  "badge_ai_art": "AIアート"
+}
