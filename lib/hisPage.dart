@@ -102,7 +102,7 @@ class HistoryPage extends StatelessWidget {
                         builder: (_) => PresetDetailPage(
                           section: PresetSection(
                             id: 'history',
-                            name: 'History', // fallback
+                            name: 'History',
                             items: [item],
                           ),
                           item: item,

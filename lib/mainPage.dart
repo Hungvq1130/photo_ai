@@ -59,15 +59,15 @@ class _MainPageState extends State<MainPage> {
       const ProfilePage(),
     ];
 
-    final bottomInset = MediaQuery.of(context).padding.bottom;
 
     return AppGradientBackground(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         backgroundColor: Colors.transparent,
         body: Stack(
           children: [
             Padding(
-              padding: EdgeInsets.only(bottom: 78 + bottomInset),
+              padding: EdgeInsets.only(bottom: 78),
               child: pages[_selectedIndex],
             ),
 

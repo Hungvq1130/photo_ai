@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:photo_ai/gradientBackground.dart';
 import 'package:photo_ai/languagePage.dart';
 import 'onBoarding.dart';
 
@@ -53,7 +54,8 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return AppGradientBackground(child: Scaffold(
+      backgroundColor: Colors.transparent,
       body: Container(
         width: double.infinity,
         height: double.infinity,
@@ -73,7 +75,6 @@ class _SplashScreenState extends State<SplashScreen>
             children: [
               const Spacer(),
 
-              // ===== LOGO =====
               Container(
                 width: 110,
                 height: 110,
@@ -83,7 +84,7 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
                 padding: const EdgeInsets.all(18),
                 child: Image.asset(
-                  'assets/logo_ai_artgen.svg',
+                  'assets/logo.png',
                 ),
               ),
 
@@ -111,7 +112,6 @@ class _SplashScreenState extends State<SplashScreen>
 
               const Spacer(),
 
-              // ===== LOADING =====
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 40),
                 child: Column(
@@ -166,6 +166,6 @@ class _SplashScreenState extends State<SplashScreen>
           ),
         ),
       ),
-    );
+    ));
   }
 }

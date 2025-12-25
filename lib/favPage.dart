@@ -70,7 +70,7 @@ class FavoritePage extends StatelessWidget {
                     builder: (_) => PresetDetailPage(
                       section: PresetSection(
                         id: 'favorite',
-                        name: 'Favorite', // fallback
+                        name: 'Favorite',
                         items: [item],
                       ),
                       item: item,

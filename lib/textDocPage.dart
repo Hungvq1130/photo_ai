@@ -88,7 +88,6 @@ class _DocumentCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // ===== CARD HEADER =====
           Row(
             children: [
               Container(
@@ -130,14 +129,12 @@ class _DocumentCard extends StatelessWidget {
 
           const SizedBox(height: 20),
 
-          // ===== DOCUMENT CONTENT =====
           _buildContent(content),
         ],
       ),
     );
   }
 
-  /// Parse đơn giản: heading / bullet / paragraph
   Widget _buildContent(String text) {
     final lines = text.split('\n');
 
@@ -146,7 +143,6 @@ class _DocumentCard extends StatelessWidget {
       children: lines.map((line) {
         final trimmed = line.trim();
 
-        // Heading: "1. Giới thiệu"
         if (RegExp(r'^\d+\.').hasMatch(trimmed)) {
           return Padding(
             padding: const EdgeInsets.only(top: 16, bottom: 8),
@@ -161,7 +157,6 @@ class _DocumentCard extends StatelessWidget {
           );
         }
 
-        // Bullet point
         if (trimmed.startsWith('-') || trimmed.startsWith('•')) {
           return Padding(
             padding: const EdgeInsets.only(left: 12, bottom: 6),
@@ -190,7 +185,6 @@ class _DocumentCard extends StatelessWidget {
           );
         }
 
-        // Normal paragraph
         if (trimmed.isNotEmpty) {
           return Padding(
             padding: const EdgeInsets.only(bottom: 8),

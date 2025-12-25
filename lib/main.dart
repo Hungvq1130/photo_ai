@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:photo_ai/route_observer.dart';
 import 'package:photo_ai/splashScreen.dart';
 import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
 import 'package:image_picker_android/image_picker_android.dart';
@@ -14,6 +15,7 @@ Future<void> main() async {
   if (imagePickerImplementation is ImagePickerAndroid) {
     imagePickerImplementation.useAndroidPhotoPicker = true;
   }
+
   runApp(
     EasyLocalization(
       supportedLocales: const [
@@ -37,6 +39,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorObservers: [routeObserver],
       debugShowCheckedModeBanner: false,
       locale: context.locale,
       supportedLocales: context.supportedLocales,

@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:photo_ai/preset_detail_page.dart';
 import 'package:photo_ai/preset_generator.dart';
+import 'package:photo_ai/route_observer.dart';
 import 'package:photo_ai/seeAllPage.dart';
 import 'package:photo_ai/settings.dart';
 
@@ -27,7 +28,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> with RouteAware {
   XFile? _pickedFile;
   Uint8List? _pickedBytes;
   String? _selectedPrompt;
@@ -38,6 +39,7 @@ class _HomePageState extends State<HomePage> {
 
   PresetSection? _selectedSection;
   PresetItem? _selectedItem;
+  final FocusNode _searchFocusNode = FocusNode();
 
   final ImagePicker picker = ImagePicker();
 
@@ -51,6 +53,28 @@ class _HomePageState extends State<HomePage> {
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+
+    final route = ModalRoute.of(context);
+    if (route is PageRoute) {
+      routeObserver.subscribe(this, route);
+    }
+  }
+
+  @override
+  void didPopNext() {
+    _searchFocusNode.unfocus();
+  }
+
+  @override
+  void dispose() {
+    routeObserver.unsubscribe(this);
+    _searchFocusNode.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final generator = PresetGenerator(context);
 
@@ -58,6 +82,7 @@ class _HomePageState extends State<HomePage> {
       child: GestureDetector(
         onTap: () => FocusScope.of(context).unfocus(),
         child: Scaffold(
+          resizeToAvoidBottomInset: false,
           backgroundColor: Colors.transparent,
 
           appBar: PreferredSize(
@@ -134,6 +159,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       alignment: Alignment.center,
                       child: TextFormField(
+                        focusNode: _searchFocusNode,
                         style: const TextStyle(color: Colors.white),
                         cursorColor: Colors.white,
                         textInputAction: TextInputAction.search,
@@ -312,6 +338,7 @@ class SectionWidget extends StatelessWidget {
               const Spacer(),
               GestureDetector(
                 onTap: () {
+                  FocusScope.of(context).unfocus();
                   Navigator.push(
                     context,
                     MaterialPageRoute(
@@ -400,7 +427,7 @@ class _PresetItemCard extends StatelessWidget {
     final generator = PresetGenerator(context);
     return GestureDetector(
       onTap: () {
-
+        FocusScope.of(context).unfocus();
         Navigator.push(
           context,
           MaterialPageRoute(

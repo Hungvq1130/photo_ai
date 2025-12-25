@@ -46,7 +46,7 @@ class ImagePageState extends State<ImagePage> {
       final status = await Permission.photos.request();
       return status.isGranted;
     }
-    return true; // iOS
+    return true;
   }
 
 
@@ -101,7 +101,6 @@ class ImagePageState extends State<ImagePage> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Title
                Text(
                 'image_generating'.tr(),
                 style: TextStyle(
@@ -113,12 +112,11 @@ class ImagePageState extends State<ImagePage> {
 
               const SizedBox(height: 16),
 
-              // Fake animated progress bar
               ClipRRect(
                 borderRadius: BorderRadius.circular(8),
                 child: LinearProgressIndicator(
                   minHeight: 8,
-                  value: null, // 👈 quan trọng: chạy fake
+                  value: null,
                   backgroundColor: Colors.white.withOpacity(0.15),
                   valueColor: const AlwaysStoppedAnimation(
                     Colors.deepPurpleAccent,
@@ -149,7 +147,6 @@ class ImagePageState extends State<ImagePage> {
   Widget _buildImageScreen() {
     return Stack(
       children: [
-        // IMAGE
         Positioned.fill(
           child: GestureDetector(
             onTap: _toggleControls,
@@ -162,7 +159,6 @@ class ImagePageState extends State<ImagePage> {
           ),
         ),
 
-        // TOP BUTTONS
         AnimatedPositioned(
           duration: const Duration(milliseconds: 300),
           top: _showControls ? 0 : -100,
@@ -193,8 +189,6 @@ class ImagePageState extends State<ImagePage> {
           ),
         ),
 
-
-        // BOTTOM BAR
         AnimatedPositioned(
           duration: const Duration(milliseconds: 300),
           bottom: _showControls ? 16 : -120,

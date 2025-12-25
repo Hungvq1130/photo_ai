@@ -23,28 +23,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         body: SafeArea(
           child: Column(
             children: [
-              Align(
-                alignment: Alignment.topRight,
-                child: Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(builder: (_) => const MainPage()),
-                      );
-                    },
-                    child: Text(
-                      'skip'.tr(),
-                      style: const TextStyle(
-                        color: Colors.white70,
-                        fontSize: 14,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-
+              const SizedBox(height: 48),
               Expanded(
                 child: PageView.builder(
                   controller: _pageController,
