@@ -1,12 +1,14 @@
-{
-  "id": "b6360b0d-8c65-4fbf-8068-7d9a36e4aed2",
-  "name": "Summer",
-  "items": [
-    {
-      "id": "e3c279b3-74bb-4c63-a881-6aa01b1aa333",
-      "img_preview": "assets/summer.jpg",
-      "img_origin": "assets/portrait1.jpg",
-      "text": "Hello"
-    }
-  ]
-}
+[
+  {
+    "id": "b6360b0d-8c65-4fbf-8068-7d9a36e4aed2",
+    "name": "Summer",
+    "items": [
+      {
+        "id": "e3c279b3-74bb-4c63-a881-6aa01b1aa333",
+        "img_preview": "assets/summer.jpg",
+        "img_origin": "assets/portrait1.jpg",
+        "text": "Hello"
+      }
+    ]
+  }
+]
